@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+
+/* body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+} */
+
+input {
+  margin-top: 1%;
+  margin-left: 1%;
+  font-family: Montserrat, sans-serif;
+  padding: 0.5%;
+  /* border-radius: 7em; */
+  /* background-color: #ccd5fc; */
+
+  /* border: 0; */
+}
+
+.heading {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    green,
+    blue,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.total {
+  margin-top: 25px;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 65vh;
+  width: 60vw;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(244, 251, 251);
+}
+.form-group {
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-group .small {
+  font-size: 20px;
+  color:midnightblue;
+}
+
+.form-actions {
+  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  transition-duration: 0.7s;
+}
+
+.form-actions button {
+  transition-duration: 0.7s;
+  margin-top: 2%;
+  height: 1.5em;
+  width: 7em;
+  color: white;
+  background-color: #7589eb;
+  border-radius: 7em;
+  border: 0;
+  font-size: 28px;
+}
+
+.form-actions button:hover {
+  background-color: #ccd5fc;
+  color: black;
+  border-radius: 7em;
+}
+
+@media screen and (max-width: 768px) {
+  .total {
+    width: 77vw;
+    height: 57vh;
+  }
+  .form-group {
+    width: 57vw;
+  }
+}

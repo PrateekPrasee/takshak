@@ -1,0 +1,204 @@
+.heads {
+  display: flex;
+  margin-top: 10%;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0;
+  letter-spacing: 3px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 12px 12px 0;
+  color: #2184dbe2;
+}
+.heads span {
+  height: 2.5px;
+  border-radius: 10px;
+  width: 150px;
+  background: #3499f2d4;
+  margin: 14px 0 0 0;
+}
+.team {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  color: #323232;
+  font-size: 20px;
+  opacity: 0.65;
+  word-spacing: 2px;
+}
+.mained {
+  transform: rotate(1deg);
+  margin-bottom: 10%;
+  width: 100%;
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f8fafb; */
+  background-image: url('./images/1.svg');
+  border-radius: 25px 25px 25px 25px;
+}
+.profile-card {
+  position: relative;
+  font-family: sans-serif;
+  width: 220px;
+  height: 220px;
+  background: rgb(214, 231, 210);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: 0.6s;
+  margin: 0 25px;
+}
+.profile-card:hover {
+  border-radius: 10px;
+  height: 260px;
+}
+.profile-card .image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+  z-index: 99;
+}
+.profile-card:hover .image {
+  transform: translateY(-60px);
+}
+
+.profile-card1 {
+  position: relative;
+  font-family: sans-serif;
+  width: 220px;
+  height: 220px;
+  background: rgb(200, 214, 238);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: 0.6s;
+  margin: 0 25px;
+}
+.profile-card1:hover {
+  border-radius: 10px;
+  height: 260px;
+}
+.profile-card1 .image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+  z-index: 99;
+}
+.profile-card1:hover .image {
+  transform: translateY(-60px);
+}
+
+.profile-card2 {
+  position: relative;
+  font-family: sans-serif;
+  width: 220px;
+  height: 220px;
+  background: rgb(234, 216, 202);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: 0.6s;
+  margin: 0 25px;
+}
+.profile-card2:hover {
+  border-radius: 10px;
+  height: 260px;
+}
+.profile-card2 .image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+  z-index: 99;
+}
+.profile-card2:hover .image {
+  transform: translateY(-60px);
+}
+
+.profile-card3 {
+  position: relative;
+  font-family: sans-serif;
+  width: 220px;
+  height: 220px;
+  background: rgb(215, 200, 229);
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: 0.6s;
+  margin: 0 25px;
+}
+.profile-card3:hover {
+  border-radius: 10px;
+  height: 260px;
+}
+.profile-card3 .image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+  z-index: 99;
+}
+.profile-card3:hover .image {
+  transform: translateY(-60px);
+}
+.image img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: 0.6s;
+}
+.profile-card:hover img {
+  border-radius: 10px;
+}
+.profile-card1:hover img {
+  border-radius: 10px;
+}
+.profile-card2:hover img {
+  border-radius: 10px;
+}
+.profile-card3:hover img {
+  border-radius: 10px;
+}
+.caption {
+  text-align: center;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: 0.6s;
+}
+.profile-card:hover .caption {
+  opacity: 1;
+}
+.profile-card1:hover .caption {
+  opacity: 1;
+}
+.profile-card2:hover .caption {
+  opacity: 1;
+}
+.profile-card3:hover .caption {
+  opacity: 1;
+}
+.caption h3 {
+  font-size: 21px;
+  font-family: sans-serif;
+}
+.caption p {
+  font-size: 15px;
+  color: #0c52a1;
+  font-family: sans-serif;
+  margin: 2px 0 9px 0;
+}
+.caption .social-links a {
+  color: #333;
+  margin-right: 15px;
+  font-size: 21px;
+  transition: 0.6s;
+}
+.social-links a:hover {
+  color: #0c52a1;
+}
